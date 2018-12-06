@@ -1,0 +1,10 @@
+D:\kantor\VS\TRY\WEB API\LATIHAN\APP\cobalagi\Electronic.API\Electronic.DataAccess\bin\Debug\Electronic.DataAccess.exe.config
+D:\kantor\VS\TRY\WEB API\LATIHAN\APP\cobalagi\Electronic.API\Electronic.DataAccess\bin\Debug\Electronic.DataAccess.exe
+D:\kantor\VS\TRY\WEB API\LATIHAN\APP\cobalagi\Electronic.API\Electronic.DataAccess\bin\Debug\Electronic.DataAccess.pdb
+D:\kantor\VS\TRY\WEB API\LATIHAN\APP\cobalagi\Electronic.API\Electronic.DataAccess\bin\Debug\EntityFramework.dll
+D:\kantor\VS\TRY\WEB API\LATIHAN\APP\cobalagi\Electronic.API\Electronic.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+D:\kantor\VS\TRY\WEB API\LATIHAN\APP\cobalagi\Electronic.API\Electronic.DataAccess\bin\Debug\EntityFramework.xml
+D:\kantor\VS\TRY\WEB API\LATIHAN\APP\cobalagi\Electronic.API\Electronic.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+D:\kantor\VS\TRY\WEB API\LATIHAN\APP\cobalagi\Electronic.API\Electronic.DataAccess\obj\Debug\Electronic.DataAccess.exe
+D:\kantor\VS\TRY\WEB API\LATIHAN\APP\cobalagi\Electronic.API\Electronic.DataAccess\obj\Debug\Electronic.DataAccess.pdb
+D:\kantor\VS\TRY\WEB API\LATIHAN\APP\cobalagi\Electronic.API\Electronic.DataAccess\obj\Debug\Electronic.DataAccess.csprojResolveAssemblyReference.cache
