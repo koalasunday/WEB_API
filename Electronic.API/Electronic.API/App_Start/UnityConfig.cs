@@ -15,16 +15,17 @@ namespace Electronic.API
 			var container = new UnityContainer();
 
             container.RegisterType<IItemService, ItemService>();
-
             container.RegisterType<IItemRepository, ItemRepository>();
 
             container.RegisterType<ITransactionService, TransactionService>();
-
             container.RegisterType<ITransactionRepository, TransactionRepository>();
 
             container.RegisterType<IDetailTransactionService, DetailTransactionService>();
-
             container.RegisterType<IDetailTransactionRepository, DetailTransactionRepository>();
+
+            container.RegisterType<ISupplierRepository, SupplierRepository>();
+            container.RegisterType<ISupplierService, SupplierService>();
+
 
             GlobalConfiguration.Configuration.DependencyResolver = new UnityDependencyResolver(container);
         }

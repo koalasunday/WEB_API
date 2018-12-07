@@ -87,3 +87,270 @@ D:\kantor\VS\TRY\WEB API\LATIHAN\APP\cobalagi\Electronic.API\Electronic.API\bin\
 D:\kantor\VS\TRY\WEB API\LATIHAN\APP\cobalagi\Electronic.API\Electronic.API\bin\System.Web.WebPages.xml
 D:\kantor\VS\TRY\WEB API\LATIHAN\APP\cobalagi\Electronic.API\Electronic.API\bin\System.Web.WebPages.Deployment.xml
 D:\kantor\VS\TRY\WEB API\LATIHAN\APP\cobalagi\Electronic.API\Electronic.API\bin\System.Web.WebPages.Razor.xml
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\ApplicationInsights.config
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\roslyn\csc.exe
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\roslyn\vbc.exe
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\roslyn\VBCSCompiler.exe
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\Electronic.API.dll.config
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\Electronic.API.dll
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\Electronic.API.pdb
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\Antlr3.Runtime.dll
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\CommonServiceLocator.dll
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\Electronic.BussinessLogic.exe
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\Electronic.Common.exe
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\Electronic.DataAccess.exe
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\EntityFramework.dll
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\EntityFramework.SqlServer.dll
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\Microsoft.AI.Web.dll
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\Microsoft.ApplicationInsights.dll
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\Newtonsoft.Json.dll
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\System.Net.Http.Formatting.dll
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\System.Web.Cors.dll
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\System.Web.Helpers.dll
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\System.Web.Http.Cors.dll
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\System.Web.Http.dll
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\System.Web.Http.WebHost.dll
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\System.Web.Mvc.dll
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\System.Web.Optimization.dll
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\System.Web.Razor.dll
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\System.Web.WebPages.Deployment.dll
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\System.Web.WebPages.dll
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\System.Web.WebPages.Razor.dll
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\Unity.Abstractions.dll
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\Unity.Configuration.dll
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\Unity.Container.dll
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\Unity.Interception.Configuration.dll
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\Unity.Interception.dll
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\Unity.RegistrationByConvention.dll
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\Unity.ServiceLocation.dll
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\Unity.WebApi.dll
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\WebGrease.dll
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\Electronic.BussinessLogic.pdb
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\Electronic.Common.pdb
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\Electronic.DataAccess.pdb
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\Antlr3.Runtime.pdb
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\CommonServiceLocator.pdb
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\EntityFramework.xml
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\EntityFramework.SqlServer.xml
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\Microsoft.AI.Web.xml
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\Microsoft.ApplicationInsights.xml
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\System.Net.Http.Formatting.xml
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\System.Web.Helpers.xml
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\System.Web.Http.xml
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\System.Web.Http.Cors.xml
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\System.Web.Mvc.xml
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\System.Web.Optimization.xml
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\System.Web.Razor.xml
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\System.Web.WebPages.xml
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\System.Web.WebPages.Deployment.xml
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\System.Web.WebPages.Razor.xml
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\Unity.Abstractions.pdb
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\Unity.Configuration.pdb
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\Unity.Container.pdb
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\Unity.Interception.pdb
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\Unity.Interception.Configuration.pdb
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\Unity.RegistrationByConvention.pdb
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\Unity.ServiceLocation.pdb
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\Newtonsoft.Json.xml
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\bin\System.Web.Http.WebHost.xml
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\obj\Debug\Electronic.API.csprojResolveAssemblyReference.cache
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\obj\Debug\Electronic.API.dll
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.API\obj\Debug\Electronic.API.pdb
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\ApplicationInsights.config
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\roslyn\csc.exe
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\roslyn\vbc.exe
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\roslyn\VBCSCompiler.exe
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\Electronic.API.dll.config
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\Electronic.API.dll
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\Electronic.API.pdb
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\Antlr3.Runtime.dll
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\CommonServiceLocator.dll
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\Electronic.BussinessLogic.exe
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\Electronic.Common.exe
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\Electronic.DataAccess.exe
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\EntityFramework.dll
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\EntityFramework.SqlServer.dll
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\Microsoft.AI.Web.dll
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\Microsoft.ApplicationInsights.dll
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\Newtonsoft.Json.dll
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\System.Net.Http.Formatting.dll
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\System.Web.Cors.dll
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\System.Web.Helpers.dll
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\System.Web.Http.Cors.dll
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\System.Web.Http.dll
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\System.Web.Http.WebHost.dll
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\System.Web.Mvc.dll
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\System.Web.Optimization.dll
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\System.Web.Razor.dll
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\System.Web.WebPages.Deployment.dll
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\System.Web.WebPages.dll
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\System.Web.WebPages.Razor.dll
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\Unity.Abstractions.dll
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\Unity.Configuration.dll
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\Unity.Container.dll
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\Unity.Interception.Configuration.dll
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\Unity.Interception.dll
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\Unity.RegistrationByConvention.dll
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\Unity.ServiceLocation.dll
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\Unity.WebApi.dll
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\WebGrease.dll
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\Electronic.BussinessLogic.pdb
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\Electronic.Common.pdb
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\Electronic.DataAccess.pdb
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\Antlr3.Runtime.pdb
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\CommonServiceLocator.pdb
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\EntityFramework.xml
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\EntityFramework.SqlServer.xml
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\Microsoft.AI.Web.xml
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\Microsoft.ApplicationInsights.xml
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\System.Net.Http.Formatting.xml
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\System.Web.Helpers.xml
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\System.Web.Http.xml
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\System.Web.Http.Cors.xml
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\System.Web.Mvc.xml
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\System.Web.Optimization.xml
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\System.Web.Razor.xml
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\System.Web.WebPages.xml
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\System.Web.WebPages.Deployment.xml
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\System.Web.WebPages.Razor.xml
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\Unity.Abstractions.pdb
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\Unity.Configuration.pdb
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\Unity.Container.pdb
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\Unity.Interception.pdb
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\Unity.Interception.Configuration.pdb
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\Unity.RegistrationByConvention.pdb
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\Unity.ServiceLocation.pdb
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\Newtonsoft.Json.xml
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\bin\System.Web.Http.WebHost.xml
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\obj\Debug\Electronic.API.csprojResolveAssemblyReference.cache
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\obj\Debug\Electronic.API.dll
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.API\obj\Debug\Electronic.API.pdb
+C:\WEB_API\Electronic.API\Electronic.API\bin\ApplicationInsights.config
+C:\WEB_API\Electronic.API\Electronic.API\bin\roslyn\csc.exe
+C:\WEB_API\Electronic.API\Electronic.API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\WEB_API\Electronic.API\Electronic.API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\WEB_API\Electronic.API\Electronic.API\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\WEB_API\Electronic.API\Electronic.API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\WEB_API\Electronic.API\Electronic.API\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\WEB_API\Electronic.API\Electronic.API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\WEB_API\Electronic.API\Electronic.API\bin\roslyn\System.Collections.Immutable.dll
+C:\WEB_API\Electronic.API\Electronic.API\bin\roslyn\System.Reflection.Metadata.dll
+C:\WEB_API\Electronic.API\Electronic.API\bin\roslyn\vbc.exe
+C:\WEB_API\Electronic.API\Electronic.API\bin\roslyn\VBCSCompiler.exe
+C:\WEB_API\Electronic.API\Electronic.API\bin\roslyn\VBCSCompiler.exe.config
+C:\WEB_API\Electronic.API\Electronic.API\bin\Electronic.API.dll.config
+C:\WEB_API\Electronic.API\Electronic.API\bin\Electronic.API.dll
+C:\WEB_API\Electronic.API\Electronic.API\bin\Electronic.API.pdb
+C:\WEB_API\Electronic.API\Electronic.API\bin\Antlr3.Runtime.dll
+C:\WEB_API\Electronic.API\Electronic.API\bin\CommonServiceLocator.dll
+C:\WEB_API\Electronic.API\Electronic.API\bin\Electronic.BussinessLogic.exe
+C:\WEB_API\Electronic.API\Electronic.API\bin\Electronic.Common.exe
+C:\WEB_API\Electronic.API\Electronic.API\bin\Electronic.DataAccess.exe
+C:\WEB_API\Electronic.API\Electronic.API\bin\EntityFramework.dll
+C:\WEB_API\Electronic.API\Electronic.API\bin\EntityFramework.SqlServer.dll
+C:\WEB_API\Electronic.API\Electronic.API\bin\Microsoft.AI.Agent.Intercept.dll
+C:\WEB_API\Electronic.API\Electronic.API\bin\Microsoft.AI.DependencyCollector.dll
+C:\WEB_API\Electronic.API\Electronic.API\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\WEB_API\Electronic.API\Electronic.API\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\WEB_API\Electronic.API\Electronic.API\bin\Microsoft.AI.Web.dll
+C:\WEB_API\Electronic.API\Electronic.API\bin\Microsoft.AI.WindowsServer.dll
+C:\WEB_API\Electronic.API\Electronic.API\bin\Microsoft.ApplicationInsights.dll
+C:\WEB_API\Electronic.API\Electronic.API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\WEB_API\Electronic.API\Electronic.API\bin\Microsoft.Web.Infrastructure.dll
+C:\WEB_API\Electronic.API\Electronic.API\bin\Newtonsoft.Json.dll
+C:\WEB_API\Electronic.API\Electronic.API\bin\System.Net.Http.Formatting.dll
+C:\WEB_API\Electronic.API\Electronic.API\bin\System.Web.Cors.dll
+C:\WEB_API\Electronic.API\Electronic.API\bin\System.Web.Helpers.dll
+C:\WEB_API\Electronic.API\Electronic.API\bin\System.Web.Http.Cors.dll
+C:\WEB_API\Electronic.API\Electronic.API\bin\System.Web.Http.dll
+C:\WEB_API\Electronic.API\Electronic.API\bin\System.Web.Http.WebHost.dll
+C:\WEB_API\Electronic.API\Electronic.API\bin\System.Web.Mvc.dll
+C:\WEB_API\Electronic.API\Electronic.API\bin\System.Web.Optimization.dll
+C:\WEB_API\Electronic.API\Electronic.API\bin\System.Web.Razor.dll
+C:\WEB_API\Electronic.API\Electronic.API\bin\System.Web.WebPages.Deployment.dll
+C:\WEB_API\Electronic.API\Electronic.API\bin\System.Web.WebPages.dll
+C:\WEB_API\Electronic.API\Electronic.API\bin\System.Web.WebPages.Razor.dll
+C:\WEB_API\Electronic.API\Electronic.API\bin\Unity.Abstractions.dll
+C:\WEB_API\Electronic.API\Electronic.API\bin\Unity.Configuration.dll
+C:\WEB_API\Electronic.API\Electronic.API\bin\Unity.Container.dll
+C:\WEB_API\Electronic.API\Electronic.API\bin\Unity.Interception.Configuration.dll
+C:\WEB_API\Electronic.API\Electronic.API\bin\Unity.Interception.dll
+C:\WEB_API\Electronic.API\Electronic.API\bin\Unity.RegistrationByConvention.dll
+C:\WEB_API\Electronic.API\Electronic.API\bin\Unity.ServiceLocation.dll
+C:\WEB_API\Electronic.API\Electronic.API\bin\Unity.WebApi.dll
+C:\WEB_API\Electronic.API\Electronic.API\bin\WebGrease.dll
+C:\WEB_API\Electronic.API\Electronic.API\bin\Electronic.BussinessLogic.pdb
+C:\WEB_API\Electronic.API\Electronic.API\bin\Electronic.Common.pdb
+C:\WEB_API\Electronic.API\Electronic.API\bin\Electronic.DataAccess.pdb
+C:\WEB_API\Electronic.API\Electronic.API\bin\Antlr3.Runtime.pdb
+C:\WEB_API\Electronic.API\Electronic.API\bin\CommonServiceLocator.pdb
+C:\WEB_API\Electronic.API\Electronic.API\bin\EntityFramework.xml
+C:\WEB_API\Electronic.API\Electronic.API\bin\EntityFramework.SqlServer.xml
+C:\WEB_API\Electronic.API\Electronic.API\bin\Microsoft.AI.DependencyCollector.xml
+C:\WEB_API\Electronic.API\Electronic.API\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\WEB_API\Electronic.API\Electronic.API\bin\Microsoft.AI.Web.xml
+C:\WEB_API\Electronic.API\Electronic.API\bin\Microsoft.AI.WindowsServer.xml
+C:\WEB_API\Electronic.API\Electronic.API\bin\Microsoft.ApplicationInsights.xml
+C:\WEB_API\Electronic.API\Electronic.API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\WEB_API\Electronic.API\Electronic.API\bin\System.Net.Http.Formatting.xml
+C:\WEB_API\Electronic.API\Electronic.API\bin\System.Web.Helpers.xml
+C:\WEB_API\Electronic.API\Electronic.API\bin\System.Web.Http.xml
+C:\WEB_API\Electronic.API\Electronic.API\bin\System.Web.Http.Cors.xml
+C:\WEB_API\Electronic.API\Electronic.API\bin\System.Web.Mvc.xml
+C:\WEB_API\Electronic.API\Electronic.API\bin\System.Web.Optimization.xml
+C:\WEB_API\Electronic.API\Electronic.API\bin\System.Web.Razor.xml
+C:\WEB_API\Electronic.API\Electronic.API\bin\System.Web.WebPages.xml
+C:\WEB_API\Electronic.API\Electronic.API\bin\System.Web.WebPages.Deployment.xml
+C:\WEB_API\Electronic.API\Electronic.API\bin\System.Web.WebPages.Razor.xml
+C:\WEB_API\Electronic.API\Electronic.API\bin\Unity.Abstractions.pdb
+C:\WEB_API\Electronic.API\Electronic.API\bin\Unity.Configuration.pdb
+C:\WEB_API\Electronic.API\Electronic.API\bin\Unity.Container.pdb
+C:\WEB_API\Electronic.API\Electronic.API\bin\Unity.Interception.pdb
+C:\WEB_API\Electronic.API\Electronic.API\bin\Unity.Interception.Configuration.pdb
+C:\WEB_API\Electronic.API\Electronic.API\bin\Unity.RegistrationByConvention.pdb
+C:\WEB_API\Electronic.API\Electronic.API\bin\Unity.ServiceLocation.pdb
+C:\WEB_API\Electronic.API\Electronic.API\bin\Newtonsoft.Json.xml
+C:\WEB_API\Electronic.API\Electronic.API\bin\System.Web.Http.WebHost.xml
+C:\WEB_API\Electronic.API\Electronic.API\obj\Debug\Electronic.API.csprojResolveAssemblyReference.cache
+C:\WEB_API\Electronic.API\Electronic.API\obj\Debug\Electronic.API.dll
+C:\WEB_API\Electronic.API\Electronic.API\obj\Debug\Electronic.API.pdb

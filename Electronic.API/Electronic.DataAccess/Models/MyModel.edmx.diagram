@@ -10,6 +10,8 @@
         <EntityTypeShape EntityType="ElectroModel.Transaction" Width="1.5" PointX="0.75" PointY="5.5" IsExpanded="true" />
         <AssociationConnector Association="ElectroModel.FK_DetailTransaction_Item" ManuallyRouted="false" />
         <AssociationConnector Association="ElectroModel.FK_DetailTransaction_Transaction" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="ElectroModel.Supplier" Width="1.5" PointX="0.75" PointY="8.375" />
+        <AssociationConnector Association="ElectroModel.FK_Item_Suppliers" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

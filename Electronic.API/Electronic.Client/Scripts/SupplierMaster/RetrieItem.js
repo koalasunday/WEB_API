@@ -1,12 +1,16 @@
 ﻿$(document).ready(function () {
     LoadIndexItem();
+    $('#table').DataTable({
+        "ajax" : LoadIndexItem()
+    });
 })
 
 function LoadIndexItem() {
     $.ajax({
         type: "GET",
-        url: "http://localhost:1082/api/Items",
+        url: "http://localhost:2188/api/Items",
         dateType: "json",
+        async: false,
         success: function (data) {
             var html = '';
             $.each(data, function (index, val) {
@@ -29,7 +33,7 @@ function Save() {
     item.price = $('#Price').val();
     item.stock = $('#Stock').val();
     $.ajax({
-        url: 'http://localhost:1082/api/Items',
+        url: 'http://localhost:2188/api/Items',
         type: 'POST',
         dataType: 'json',
         data: item,
@@ -47,7 +51,7 @@ function Edit() {
     item.price = $('#Price').val();
     item.stock = $('#Stock').val();
     $.ajax({
-        url: "http://localhost:1082/api/Items/" + $('#Id').val(),
+        url: "http://localhost:2188/api/Items/" + $('#Id').val(),
         data: item,
         type: "PUT",
         dataType: "json",
@@ -64,7 +68,7 @@ function Edit() {
 
 function GetById(Id) {
     $.ajax({
-        url: "http://localhost:1082/api/Items/" + Id,
+        url: "http://localhost:2188/api/Items/" + Id,
         type: "GET",
         dataType: "json",
         success: function (result) {
@@ -91,7 +95,7 @@ function Delete(Id) {
         closeOnConfirm: false
     }, function () {
         $.ajax({
-            url: "http://localhost:1082/api/Items/" + Id,
+            url: "http://localhost:2188/api/Items/" + Id,
             type: "DELETE",
             success: function (response) {
                 swal({

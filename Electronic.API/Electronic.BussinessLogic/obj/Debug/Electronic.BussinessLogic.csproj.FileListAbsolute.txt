@@ -12,3 +12,45 @@ D:\kantor\VS\TRY\WEB API\LATIHAN\APP\cobalagi\Electronic.API\Electronic.Bussines
 D:\kantor\VS\TRY\WEB API\LATIHAN\APP\cobalagi\Electronic.API\Electronic.BussinessLogic\obj\Debug\Electronic.BussinessLogic.csprojResolveAssemblyReference.cache
 D:\kantor\VS\TRY\WEB API\LATIHAN\APP\cobalagi\Electronic.API\Electronic.BussinessLogic\obj\Debug\Electronic.BussinessLogic.exe
 D:\kantor\VS\TRY\WEB API\LATIHAN\APP\cobalagi\Electronic.API\Electronic.BussinessLogic\obj\Debug\Electronic.BussinessLogic.pdb
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.BussinessLogic\bin\Debug\Electronic.BussinessLogic.exe.config
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.BussinessLogic\bin\Debug\Electronic.BussinessLogic.exe
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.BussinessLogic\bin\Debug\Electronic.BussinessLogic.pdb
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.BussinessLogic\bin\Debug\Electronic.Common.exe
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.BussinessLogic\bin\Debug\Electronic.DataAccess.exe
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.BussinessLogic\bin\Debug\EntityFramework.dll
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.BussinessLogic\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.BussinessLogic\bin\Debug\Electronic.Common.pdb
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.BussinessLogic\bin\Debug\Electronic.DataAccess.pdb
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.BussinessLogic\bin\Debug\EntityFramework.xml
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.BussinessLogic\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.BussinessLogic\obj\Debug\Electronic.BussinessLogic.csprojResolveAssemblyReference.cache
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.BussinessLogic\obj\Debug\Electronic.BussinessLogic.exe
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.BussinessLogic\obj\Debug\Electronic.BussinessLogic.pdb
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.BussinessLogic\bin\Debug\Electronic.BussinessLogic.exe.config
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.BussinessLogic\bin\Debug\Electronic.BussinessLogic.exe
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.BussinessLogic\bin\Debug\Electronic.BussinessLogic.pdb
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.BussinessLogic\bin\Debug\Electronic.Common.exe
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.BussinessLogic\bin\Debug\Electronic.DataAccess.exe
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.BussinessLogic\bin\Debug\EntityFramework.dll
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.BussinessLogic\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.BussinessLogic\bin\Debug\Electronic.Common.pdb
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.BussinessLogic\bin\Debug\Electronic.DataAccess.pdb
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.BussinessLogic\bin\Debug\EntityFramework.xml
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.BussinessLogic\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.BussinessLogic\obj\Debug\Electronic.BussinessLogic.csprojResolveAssemblyReference.cache
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.BussinessLogic\obj\Debug\Electronic.BussinessLogic.exe
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.BussinessLogic\obj\Debug\Electronic.BussinessLogic.pdb
+C:\WEB_API\Electronic.API\Electronic.BussinessLogic\bin\Debug\Electronic.BussinessLogic.exe.config
+C:\WEB_API\Electronic.API\Electronic.BussinessLogic\bin\Debug\Electronic.BussinessLogic.exe
+C:\WEB_API\Electronic.API\Electronic.BussinessLogic\bin\Debug\Electronic.BussinessLogic.pdb
+C:\WEB_API\Electronic.API\Electronic.BussinessLogic\bin\Debug\Electronic.Common.exe
+C:\WEB_API\Electronic.API\Electronic.BussinessLogic\bin\Debug\Electronic.DataAccess.exe
+C:\WEB_API\Electronic.API\Electronic.BussinessLogic\bin\Debug\EntityFramework.dll
+C:\WEB_API\Electronic.API\Electronic.BussinessLogic\bin\Debug\EntityFramework.SqlServer.dll
+C:\WEB_API\Electronic.API\Electronic.BussinessLogic\bin\Debug\Electronic.Common.pdb
+C:\WEB_API\Electronic.API\Electronic.BussinessLogic\bin\Debug\Electronic.DataAccess.pdb
+C:\WEB_API\Electronic.API\Electronic.BussinessLogic\bin\Debug\EntityFramework.xml
+C:\WEB_API\Electronic.API\Electronic.BussinessLogic\bin\Debug\EntityFramework.SqlServer.xml
+C:\WEB_API\Electronic.API\Electronic.BussinessLogic\obj\Debug\Electronic.BussinessLogic.csprojResolveAssemblyReference.cache
+C:\WEB_API\Electronic.API\Electronic.BussinessLogic\obj\Debug\Electronic.BussinessLogic.exe
+C:\WEB_API\Electronic.API\Electronic.BussinessLogic\obj\Debug\Electronic.BussinessLogic.pdb

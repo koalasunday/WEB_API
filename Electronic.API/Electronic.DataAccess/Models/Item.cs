@@ -42,7 +42,7 @@ namespace Electronic.DataAccess.Models
             this.IsDelete = true;
             this.Deletedate = DateTimeOffset.Now.LocalDateTime;
         }
-
+    
         public int Id { get; set; }
         public string Name { get; set; }
         public Nullable<int> Price { get; set; }
@@ -51,8 +51,10 @@ namespace Electronic.DataAccess.Models
         public Nullable<System.DateTimeOffset> UpdateDate { get; set; }
         public Nullable<System.DateTimeOffset> Deletedate { get; set; }
         public bool IsDelete { get; set; }
+        public Nullable<int> Suppliers_Id { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<DetailTransaction> DetailTransactions { get; set; }
+        public virtual Supplier Supplier { get; set; }
     }
 }

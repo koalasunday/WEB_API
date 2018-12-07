@@ -25,6 +25,8 @@
     <Property Name="Deletedate" Type="DateTimeOffset" Precision="7" />
     <Property Name="IsDelete" Type="Boolean" Nullable="false" />
     <NavigationProperty Name="DetailTransactions" Relationship="Self.FK_DetailTransaction_Item" FromRole="Item" ToRole="DetailTransaction" />
+    <Property Name="Suppliers_Id" Type="Int32" />
+    <NavigationProperty Name="Supplier" Relationship="ElectroModel.FK_Item_Suppliers" FromRole="Item" ToRole="Supplier" />
   </EntityType>
   <EntityType Name="Transaction">
     <Key>
@@ -71,5 +73,34 @@
       <End Role="Transaction" EntitySet="Transactions" />
       <End Role="DetailTransaction" EntitySet="DetailTransactions" />
     </AssociationSet>
+    <EntitySet Name="Suppliers" EntityType="ElectroModel.Supplier" />
+    <AssociationSet Name="FK_Item_Suppliers" Association="ElectroModel.FK_Item_Suppliers">
+      <End Role="Supplier" EntitySet="Suppliers" />
+      <End Role="Item" EntitySet="Items" />
+    </AssociationSet>
   </EntityContainer>
+  <EntityType Name="Supplier">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="CreateDate" Type="DateTime" Precision="0" />
+    <Property Name="UpdateDate" Type="DateTime" Precision="0" />
+    <Property Name="DeleteDate" Type="DateTime" Precision="0" />
+    <Property Name="IsDelete" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="Items" Relationship="ElectroModel.FK_Item_Suppliers" FromRole="Supplier" ToRole="Item" />
+  </EntityType>
+  <Association Name="FK_Item_Suppliers">
+    <End Type="ElectroModel.Supplier" Role="Supplier" Multiplicity="0..1" />
+    <End Type="ElectroModel.Item" Role="Item" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Supplier">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Item">
+        <PropertyRef Name="Suppliers_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
 </Schema>

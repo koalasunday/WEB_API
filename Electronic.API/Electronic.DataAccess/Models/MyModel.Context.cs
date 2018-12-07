@@ -28,5 +28,6 @@ namespace Electronic.DataAccess.Models
         public virtual DbSet<DetailTransaction> DetailTransactions { get; set; }
         public virtual DbSet<Item> Items { get; set; }
         public virtual DbSet<Transaction> Transactions { get; set; }
+        public virtual DbSet<Supplier> Suppliers { get; set; }
     }
 }

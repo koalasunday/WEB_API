@@ -10,3 +10,39 @@ D:\kantor\VS\TRY\WEB API\LATIHAN\APP\cobalagi\Electronic.API\Electronic.Common\b
 D:\kantor\VS\TRY\WEB API\LATIHAN\APP\cobalagi\Electronic.API\Electronic.Common\obj\Debug\Electronic.Common.csprojResolveAssemblyReference.cache
 D:\kantor\VS\TRY\WEB API\LATIHAN\APP\cobalagi\Electronic.API\Electronic.Common\obj\Debug\Electronic.Common.exe
 D:\kantor\VS\TRY\WEB API\LATIHAN\APP\cobalagi\Electronic.API\Electronic.Common\obj\Debug\Electronic.Common.pdb
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.Common\bin\Debug\Electronic.Common.exe.config
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.Common\bin\Debug\Electronic.Common.exe
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.Common\bin\Debug\Electronic.Common.pdb
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.Common\bin\Debug\Electronic.DataAccess.exe
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.Common\bin\Debug\EntityFramework.dll
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.Common\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.Common\bin\Debug\Electronic.DataAccess.pdb
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.Common\bin\Debug\EntityFramework.xml
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.Common\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.Common\obj\Debug\Electronic.Common.csprojResolveAssemblyReference.cache
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.Common\obj\Debug\Electronic.Common.exe
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.Common\obj\Debug\Electronic.Common.pdb
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.Common\bin\Debug\Electronic.Common.exe.config
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.Common\bin\Debug\Electronic.Common.exe
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.Common\bin\Debug\Electronic.Common.pdb
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.Common\bin\Debug\Electronic.DataAccess.exe
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.Common\bin\Debug\EntityFramework.dll
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.Common\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.Common\bin\Debug\Electronic.DataAccess.pdb
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.Common\bin\Debug\EntityFramework.xml
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.Common\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.Common\obj\Debug\Electronic.Common.csprojResolveAssemblyReference.cache
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.Common\obj\Debug\Electronic.Common.exe
+C:\Users\user\Documents\GitHub\WEB_API\Electronic.API\Electronic.Common\obj\Debug\Electronic.Common.pdb
+C:\WEB_API\Electronic.API\Electronic.Common\bin\Debug\Electronic.Common.exe.config
+C:\WEB_API\Electronic.API\Electronic.Common\bin\Debug\Electronic.Common.exe
+C:\WEB_API\Electronic.API\Electronic.Common\bin\Debug\Electronic.Common.pdb
+C:\WEB_API\Electronic.API\Electronic.Common\bin\Debug\Electronic.DataAccess.exe
+C:\WEB_API\Electronic.API\Electronic.Common\bin\Debug\EntityFramework.dll
+C:\WEB_API\Electronic.API\Electronic.Common\bin\Debug\EntityFramework.SqlServer.dll
+C:\WEB_API\Electronic.API\Electronic.Common\bin\Debug\Electronic.DataAccess.pdb
+C:\WEB_API\Electronic.API\Electronic.Common\bin\Debug\EntityFramework.xml
+C:\WEB_API\Electronic.API\Electronic.Common\bin\Debug\EntityFramework.SqlServer.xml
+C:\WEB_API\Electronic.API\Electronic.Common\obj\Debug\Electronic.Common.csprojResolveAssemblyReference.cache
+C:\WEB_API\Electronic.API\Electronic.Common\obj\Debug\Electronic.Common.exe
+C:\WEB_API\Electronic.API\Electronic.Common\obj\Debug\Electronic.Common.pdb

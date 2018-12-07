@@ -13,6 +13,7 @@ namespace Electronic.DataAccess.Params
         public string Name { get; set; }
         public Nullable<int> Price { get; set; }
         public Nullable<int> Stock { get; set; }
+        public String Suppliers { get; set; }
 
         //public ItemParam() { }
         //public ItemParam(Item item)

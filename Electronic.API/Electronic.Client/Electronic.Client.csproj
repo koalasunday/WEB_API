@@ -159,6 +159,7 @@
     <Compile Include="Controllers\DetailsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ItemsController.cs" />
+    <Compile Include="Controllers\SuppliersController.cs" />
     <Compile Include="Controllers\TransactionsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -168,6 +169,39 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\datatables\dataTables.bootstrap.js" />
+    <Content Include="Content\datatables\jquery.dataTables.min.css" />
+    <Content Include="Content\datatables\jquery.dataTables.min.js" />
+    <Content Include="Content\datatables\license.txt" />
+    <Content Include="Content\datatables\media\css\dataTables.bootstrap.css" />
+    <Content Include="Content\datatables\media\css\dataTables.bootstrap.min.css" />
+    <Content Include="Content\datatables\media\css\dataTables.foundation.css" />
+    <Content Include="Content\datatables\media\css\dataTables.foundation.min.css" />
+    <Content Include="Content\datatables\media\css\dataTables.jqueryui.css" />
+    <Content Include="Content\datatables\media\css\dataTables.jqueryui.min.css" />
+    <Content Include="Content\datatables\media\css\jquery.dataTables.css" />
+    <Content Include="Content\datatables\media\css\jquery.dataTables.min.css" />
+    <Content Include="Content\datatables\media\css\jquery.dataTables_themeroller.css" />
+    <Content Include="Content\datatables\media\images\favicon.ico" />
+    <Content Include="Content\datatables\media\images\sort_asc.png" />
+    <Content Include="Content\datatables\media\images\sort_asc_disabled.png" />
+    <Content Include="Content\datatables\media\images\sort_both.png" />
+    <Content Include="Content\datatables\media\images\sort_desc.png" />
+    <Content Include="Content\datatables\media\images\sort_desc_disabled.png" />
+    <Content Include="Content\datatables\media\js\dataTables.bootstrap.js" />
+    <Content Include="Content\datatables\media\js\dataTables.bootstrap.min.js" />
+    <Content Include="Content\datatables\media\js\dataTables.foundation.js" />
+    <Content Include="Content\datatables\media\js\dataTables.foundation.min.js" />
+    <Content Include="Content\datatables\media\js\dataTables.jqueryui.js" />
+    <Content Include="Content\datatables\media\js\dataTables.jqueryui.min.js" />
+    <Content Include="Content\datatables\media\js\jquery.dataTables.js" />
+    <Content Include="Content\datatables\media\js\jquery.dataTables.min.js" />
+    <Content Include="Content\datatables\media\js\jquery.js" />
+    <Content Include="Content\datatables\sort_asc.png" />
+    <Content Include="Content\datatables\sort_asc_disabled.png" />
+    <Content Include="Content\datatables\sort_both.png" />
+    <Content Include="Content\datatables\sort_desc.png" />
+    <Content Include="Content\datatables\sort_desc_disabled.png" />
     <Content Include="Content\pickadate.js-3.5.6\.gitignore" />
     <Content Include="Content\pickadate.js-3.5.6\Gruntfile.js" />
     <Content Include="Content\pickadate.js-3.5.6\lib\compressed\legacy.js" />
@@ -328,6 +362,11 @@
     <Content Include="Content\pickadate.js-3.5.6\LICENSE.md" />
     <Content Include="Content\pickadate.js-3.5.6\package.json" />
     <Content Include="Content\pickadate.js-3.5.6\README.md" />
+    <Content Include="Content\datatables\.bower.json" />
+    <Content Include="Content\datatables\bower.json" />
+    <Content Include="Content\datatables\Contributing.md" />
+    <Content Include="Content\datatables\media\images\Sorting icons.psd" />
+    <Content Include="Content\datatables\Readme.md" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -341,6 +380,7 @@
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\SupplierMaster\RetrieDetail.js" />
     <Content Include="Scripts\SupplierMaster\RetrieItem.js" />
+    <Content Include="Scripts\SupplierMaster\RetrieSupplier.js" />
     <Content Include="Scripts\SupplierMaster\RetrieTransaction.js" />
     <Content Include="Scripts\_references.js" />
     <Content Include="Web.config" />
@@ -360,6 +400,7 @@
     <Content Include="Views\Items\Index.cshtml" />
     <Content Include="Views\Transactions\Index.cshtml" />
     <Content Include="Views\Details\Index.cshtml" />
+    <Content Include="Views\Suppliers\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -397,7 +438,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>1181</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:1181/</IISUrl>
+          <IISUrl>http://localhost:3339/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

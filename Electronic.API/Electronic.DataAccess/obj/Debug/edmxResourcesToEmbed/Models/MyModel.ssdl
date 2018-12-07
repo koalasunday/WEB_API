@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Schema Namespace="ElectroModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
-  <EntityType Name="DetailTransaction">
+  <EntityType Name="DetailTransactions">
     <Key>
       <PropertyRef Name="Id" />
     </Key>
@@ -10,7 +10,7 @@
     <Property Name="Transactions_Id" Type="int" />
     <Property Name="Items_Id" Type="int" />
   </EntityType>
-  <EntityType Name="Item">
+  <EntityType Name="Items">
     <Key>
       <PropertyRef Name="Id" />
     </Key>
@@ -22,8 +22,20 @@
     <Property Name="UpdateDate" Type="datetimeoffset" Precision="7" />
     <Property Name="Deletedate" Type="datetimeoffset" Precision="7" />
     <Property Name="IsDelete" Type="bit" Nullable="false" />
+    <Property Name="Suppliers_Id" Type="int" />
   </EntityType>
-  <EntityType Name="Transaction">
+  <EntityType Name="Suppliers">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="100" />
+    <Property Name="CreateDate" Type="date" />
+    <Property Name="UpdateDate" Type="date" />
+    <Property Name="DeleteDate" Type="date" />
+    <Property Name="IsDelete" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Transactions">
     <Key>
       <PropertyRef Name="Id" />
     </Key>
@@ -32,40 +44,57 @@
     <Property Name="TransactionDate" Type="datetimeoffset" Precision="7" />
   </EntityType>
   <Association Name="FK_DetailTransaction_Item">
-    <End Role="Item" Type="Self.Item" Multiplicity="0..1" />
-    <End Role="DetailTransaction" Type="Self.DetailTransaction" Multiplicity="*" />
+    <End Role="Items" Type="Self.Items" Multiplicity="0..1" />
+    <End Role="DetailTransactions" Type="Self.DetailTransactions" Multiplicity="*" />
     <ReferentialConstraint>
-      <Principal Role="Item">
+      <Principal Role="Items">
         <PropertyRef Name="Id" />
       </Principal>
-      <Dependent Role="DetailTransaction">
+      <Dependent Role="DetailTransactions">
         <PropertyRef Name="Items_Id" />
       </Dependent>
     </ReferentialConstraint>
   </Association>
   <Association Name="FK_DetailTransaction_Transaction">
-    <End Role="Transaction" Type="Self.Transaction" Multiplicity="0..1" />
-    <End Role="DetailTransaction" Type="Self.DetailTransaction" Multiplicity="*" />
+    <End Role="Transactions" Type="Self.Transactions" Multiplicity="0..1" />
+    <End Role="DetailTransactions" Type="Self.DetailTransactions" Multiplicity="*" />
     <ReferentialConstraint>
-      <Principal Role="Transaction">
+      <Principal Role="Transactions">
         <PropertyRef Name="Id" />
       </Principal>
-      <Dependent Role="DetailTransaction">
+      <Dependent Role="DetailTransactions">
         <PropertyRef Name="Transactions_Id" />
       </Dependent>
     </ReferentialConstraint>
   </Association>
+  <Association Name="FK_Item_Suppliers">
+    <End Role="Suppliers" Type="Self.Suppliers" Multiplicity="0..1" />
+    <End Role="Items" Type="Self.Items" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Suppliers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Items">
+        <PropertyRef Name="Suppliers_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
   <EntityContainer Name="ElectroModelStoreContainer">
-    <EntitySet Name="DetailTransaction" EntityType="Self.DetailTransaction" Schema="dbo" store:Type="Tables" />
-    <EntitySet Name="Item" EntityType="Self.Item" Schema="dbo" store:Type="Tables" />
-    <EntitySet Name="Transaction" EntityType="Self.Transaction" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DetailTransactions" EntityType="Self.DetailTransactions" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Items" EntityType="Self.Items" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Suppliers" EntityType="Self.Suppliers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Transactions" EntityType="Self.Transactions" Schema="dbo" store:Type="Tables" />
     <AssociationSet Name="FK_DetailTransaction_Item" Association="Self.FK_DetailTransaction_Item">
-      <End Role="Item" EntitySet="Item" />
-      <End Role="DetailTransaction" EntitySet="DetailTransaction" />
+      <End Role="Items" EntitySet="Items" />
+      <End Role="DetailTransactions" EntitySet="DetailTransactions" />
     </AssociationSet>
     <AssociationSet Name="FK_DetailTransaction_Transaction" Association="Self.FK_DetailTransaction_Transaction">
-      <End Role="Transaction" EntitySet="Transaction" />
-      <End Role="DetailTransaction" EntitySet="DetailTransaction" />
+      <End Role="Transactions" EntitySet="Transactions" />
+      <End Role="DetailTransactions" EntitySet="DetailTransactions" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Item_Suppliers" Association="Self.FK_Item_Suppliers">
+      <End Role="Suppliers" EntitySet="Suppliers" />
+      <End Role="Items" EntitySet="Items" />
     </AssociationSet>
   </EntityContainer>
 </Schema>
