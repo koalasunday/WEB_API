@@ -2,8 +2,8 @@
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
   <EntityContainerMapping StorageEntityContainer="ElectroModelStoreContainer" CdmEntityContainer="MyContext">
     <EntitySetMapping Name="DetailTransactions">
-      <EntityTypeMapping TypeName="ElectroModel.DetailTransaction">
-        <MappingFragment StoreEntitySet="DetailTransaction">
+      <EntityTypeMapping TypeName="IsTypeOf(ElectroModel.DetailTransaction)">
+        <MappingFragment StoreEntitySet="DetailTransactions">
           <ScalarProperty Name="Id" ColumnName="Id" />
           <ScalarProperty Name="Quantity" ColumnName="Quantity" />
           <ScalarProperty Name="Price" ColumnName="Price" />
@@ -13,8 +13,8 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Items">
-      <EntityTypeMapping TypeName="ElectroModel.Item">
-        <MappingFragment StoreEntitySet="Item">
+      <EntityTypeMapping TypeName="IsTypeOf(ElectroModel.Item)">
+        <MappingFragment StoreEntitySet="Items">
           <ScalarProperty Name="Id" ColumnName="Id" />
           <ScalarProperty Name="Name" ColumnName="Name" />
           <ScalarProperty Name="Price" ColumnName="Price" />
@@ -27,8 +27,8 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Transactions">
-      <EntityTypeMapping TypeName="ElectroModel.Transaction">
-        <MappingFragment StoreEntitySet="Transaction">
+      <EntityTypeMapping TypeName="IsTypeOf(ElectroModel.Transaction)">
+        <MappingFragment StoreEntitySet="Transactions">
           <ScalarProperty Name="Id" ColumnName="Id" />
           <ScalarProperty Name="TransactionCode" ColumnName="TransactionCode" />
           <ScalarProperty Name="TransactionDate" ColumnName="TransactionDate" />

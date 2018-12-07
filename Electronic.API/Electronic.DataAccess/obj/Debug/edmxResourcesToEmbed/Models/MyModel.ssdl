@@ -1,39 +1,52 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Schema Namespace="ElectroModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
-  <EntityType Name="DetailTransaction">
+<Schema Namespace="ElectroModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="ElectroModelStoreContainer">
+    <EntitySet Name="DetailTransactions" EntityType="ElectroModel.Store.DetailTransactions" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Items" EntityType="ElectroModel.Store.Items" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Transactions" EntityType="ElectroModel.Store.Transactions" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_DetailTransaction_Item" Association="ElectroModel.Store.FK_DetailTransaction_Item">
+      <End Role="Item" EntitySet="Items" />
+      <End Role="DetailTransaction" EntitySet="DetailTransactions" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DetailTransaction_Transaction" Association="ElectroModel.Store.FK_DetailTransaction_Transaction">
+      <End Role="Transaction" EntitySet="Transactions" />
+      <End Role="DetailTransaction" EntitySet="DetailTransactions" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="DetailTransactions">
     <Key>
       <PropertyRef Name="Id" />
     </Key>
     <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-    <Property Name="Quantity" Type="int" />
-    <Property Name="Price" Type="int" />
-    <Property Name="Transactions_Id" Type="int" />
-    <Property Name="Items_Id" Type="int" />
+    <Property Name="Quantity" Type="int" Nullable="true" />
+    <Property Name="Price" Type="int" Nullable="true" />
+    <Property Name="Transactions_Id" Type="int" Nullable="true" />
+    <Property Name="Items_Id" Type="int" Nullable="true" />
   </EntityType>
-  <EntityType Name="Item">
+  <EntityType Name="Items">
     <Key>
       <PropertyRef Name="Id" />
     </Key>
     <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-    <Property Name="Name" Type="nvarchar(max)" />
-    <Property Name="Price" Type="int" />
-    <Property Name="Stock" Type="int" />
-    <Property Name="CreateDate" Type="datetimeoffset" Precision="7" />
-    <Property Name="UpdateDate" Type="datetimeoffset" Precision="7" />
-    <Property Name="Deletedate" Type="datetimeoffset" Precision="7" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="Price" Type="int" Nullable="true" />
+    <Property Name="Stock" Type="int" Nullable="true" />
+    <Property Name="CreateDate" Type="datetimeoffset" Nullable="true" Precision="7" />
+    <Property Name="UpdateDate" Type="datetimeoffset" Nullable="true" Precision="7" />
+    <Property Name="Deletedate" Type="datetimeoffset" Nullable="true" Precision="7" />
     <Property Name="IsDelete" Type="bit" Nullable="false" />
   </EntityType>
-  <EntityType Name="Transaction">
+  <EntityType Name="Transactions">
     <Key>
       <PropertyRef Name="Id" />
     </Key>
     <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-    <Property Name="TransactionCode" Type="nvarchar(max)" />
-    <Property Name="TransactionDate" Type="datetimeoffset" Precision="7" />
+    <Property Name="TransactionCode" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="TransactionDate" Type="datetimeoffset" Nullable="true" Precision="7" />
   </EntityType>
   <Association Name="FK_DetailTransaction_Item">
-    <End Role="Item" Type="Self.Item" Multiplicity="0..1" />
-    <End Role="DetailTransaction" Type="Self.DetailTransaction" Multiplicity="*" />
+    <End Role="Item" Type="ElectroModel.Store.Items" Multiplicity="0..1" />
+    <End Role="DetailTransaction" Type="ElectroModel.Store.DetailTransactions" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="Item">
         <PropertyRef Name="Id" />
@@ -44,8 +57,8 @@
     </ReferentialConstraint>
   </Association>
   <Association Name="FK_DetailTransaction_Transaction">
-    <End Role="Transaction" Type="Self.Transaction" Multiplicity="0..1" />
-    <End Role="DetailTransaction" Type="Self.DetailTransaction" Multiplicity="*" />
+    <End Role="Transaction" Type="ElectroModel.Store.Transactions" Multiplicity="0..1" />
+    <End Role="DetailTransaction" Type="ElectroModel.Store.DetailTransactions" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="Transaction">
         <PropertyRef Name="Id" />
@@ -55,17 +68,4 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <EntityContainer Name="ElectroModelStoreContainer">
-    <EntitySet Name="DetailTransaction" EntityType="Self.DetailTransaction" Schema="dbo" store:Type="Tables" />
-    <EntitySet Name="Item" EntityType="Self.Item" Schema="dbo" store:Type="Tables" />
-    <EntitySet Name="Transaction" EntityType="Self.Transaction" Schema="dbo" store:Type="Tables" />
-    <AssociationSet Name="FK_DetailTransaction_Item" Association="Self.FK_DetailTransaction_Item">
-      <End Role="Item" EntitySet="Item" />
-      <End Role="DetailTransaction" EntitySet="DetailTransaction" />
-    </AssociationSet>
-    <AssociationSet Name="FK_DetailTransaction_Transaction" Association="Self.FK_DetailTransaction_Transaction">
-      <End Role="Transaction" EntitySet="Transaction" />
-      <End Role="DetailTransaction" EntitySet="DetailTransaction" />
-    </AssociationSet>
-  </EntityContainer>
 </Schema>

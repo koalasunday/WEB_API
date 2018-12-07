@@ -8,3 +8,13 @@ D:\kantor\VS\TRY\WEB API\LATIHAN\APP\cobalagi\Electronic.API\Electronic.DataAcce
 D:\kantor\VS\TRY\WEB API\LATIHAN\APP\cobalagi\Electronic.API\Electronic.DataAccess\obj\Debug\Electronic.DataAccess.exe
 D:\kantor\VS\TRY\WEB API\LATIHAN\APP\cobalagi\Electronic.API\Electronic.DataAccess\obj\Debug\Electronic.DataAccess.pdb
 D:\kantor\VS\TRY\WEB API\LATIHAN\APP\cobalagi\Electronic.API\Electronic.DataAccess\obj\Debug\Electronic.DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.DataAccess\bin\Debug\Electronic.DataAccess.exe.config
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.DataAccess\bin\Debug\Electronic.DataAccess.exe
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.DataAccess\bin\Debug\Electronic.DataAccess.pdb
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.DataAccess\obj\Debug\Electronic.DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.DataAccess\obj\Debug\Electronic.DataAccess.exe
+C:\Users\NaufalAj\Documents\Visual Studio 2015\Git\WEB_API\Electronic.API\Electronic.DataAccess\obj\Debug\Electronic.DataAccess.pdb

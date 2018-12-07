@@ -23,7 +23,6 @@ namespace Electronic.DataAccess.Models
             this.Quantity = transactionParam.DetailTransactions_Quantity;
             this.Price = transactionParam.DetailTransactions_Price;
         }
-
         public int Id { get; set; }
         public Nullable<int> Quantity { get; set; }
         public Nullable<int> Price { get; set; }
