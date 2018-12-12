@@ -1,9 +1,35 @@
 ﻿var Items = []
-function LoadItem(element) {
+
+$(document).ready(function () {
+    LoadIndexTransaction();
+    loadItem($('#ProductItem'));
+})
+
+function LoadIndexTransaction() {
+    $.ajax({
+        type: "GET",
+        url: "http://localhost:2188/api/Transactions",
+        dateType: "json",
+        success: function (data) {
+            var html = '';
+            $.each(data, function (index, val) {
+                html += '<tr>';
+                html += '<td>' + val.Id + '</td>';
+                html += '<td>' + val.TransactionCode + '</td>';
+                html += '<td>' + val.TransactionDate + '</td>';
+                html += '<td> <a href="#" onclick="return GetById(' + val.Id + ')">Detail</a>';
+                html += '</tr>';
+            });
+            $('.tbody').html(html);
+        }
+    });
+}
+
+function loadItem(element) {
     if (Items.length == 0) {
         $.ajax({
             type: 'GET',
-            url: "http://localhost:1082/api/Items",
+            url: 'http://localhost:2188/api/Items',
             success: function (data) {
                 Items = data;
                 renderItem(element);
@@ -24,82 +50,4 @@ function renderItem(element) {
     })
 }
 
-//Add Multiple Order.
-$("#AddList").click(function (e) {
-    e.preventDefault();
-    debugger;
-    if ($.trim($("#ProductItem").val()) == "" || $.trim($("#Price").val()) == "" || $.trim($("#Quantity").val()) == "") return;
-
-    var productItem = $("#ProductItem").val(),
-        quantity = $("#Quantity").val(),
-        price = $("#Price").val(),
-        detailsTableBody = $("#detailsTable tbody");
-
-    var productDetail = '<tr><td>' + productItem + '</td><td>' + price + '</td><td>' + quantity + '</td><td>' + (parseFloat(price) * parseInt(quantity)) + '</td><td><a data-itemId="0" href="#" class="deleteItem">Remove</a></td></tr>';
-    detailsTableBody.append(productDetail);
-    ResetItem();
-});
-
-
-$(document).ready(function () {
-    LoadIndexDetail();
-    LoadItem($('#ProductItem'));
-})
-
-function LoadIndexDetail() {
-    $.ajax({
-        type: "GET",
-        url: "http://localhost:1082/api/Details",
-        dateType: "json",
-        success: function (data) {
-            var html = '';
-            $.each(data, function (index, val) {
-                html += '<tr>';
-                html += '<td>' + val.Transaction.TransactionCode + '</td>';
-                html += '<td>' + val.Item.Name + '</td>';
-                html += '<td>' + val.Quantity + '</td>';
-                html += '<td>' + val.Price + '</td>';
-                html += '<td>' + (val.Quantity*val.Price) + '</td>';
-                html += '<td> <a href="#" onclick="return GetById(' + val.Id + ')">Detail</a>';
-                html += '</tr>';
-            });
-            $('.tbody1').html(html);
-        }
-    });
-}
-
-function Save() {
-    var item = new Object();
-    item.Transactions_Id = $('#ProductItem').val();
-    item.Quantity = $('#Quantity').val();
-    item.Price = $('#Price').val();
-    $.ajax({
-        url: 'http://localhost:1082/api/Details',
-        type: 'POST',
-        dataType: 'json',
-        data: item,
-        success: function (result) {
-            LoadIndexTransaction();
-            $('#Id').val('');
-            ResetItem();
-            $('#myModal').modal('hide');
-        }
-    });
-};
-
-function ResetItem() {
-    $('#productItem').val('0');
-    $('#price').val('');
-    $('#quantity').val('');
-};
-
-$(document).on('click', 'a.deleteItem', function (e) {
-    e.preventDefault();
-    var $self = $(this);
-    if ($(this).attr('data-itemId') == "0") {
-        $(this).parents('tr').css("background-color", "#ff6347").fadeOut(800, function () {
-            $(this).remove();
-        });
-    }
-});
-
+loadItem($('#ProductItem'));

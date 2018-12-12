@@ -54,3 +54,17 @@ C:\WEB_API\Electronic.API\Electronic.BussinessLogic\bin\Debug\EntityFramework.Sq
 C:\WEB_API\Electronic.API\Electronic.BussinessLogic\obj\Debug\Electronic.BussinessLogic.csprojResolveAssemblyReference.cache
 C:\WEB_API\Electronic.API\Electronic.BussinessLogic\obj\Debug\Electronic.BussinessLogic.exe
 C:\WEB_API\Electronic.API\Electronic.BussinessLogic\obj\Debug\Electronic.BussinessLogic.pdb
+D:\kantor\VS\TRY\WEB API\LATIHAN\Git\new\WEB_API\Electronic.API\Electronic.BussinessLogic\bin\Debug\Electronic.BussinessLogic.exe.config
+D:\kantor\VS\TRY\WEB API\LATIHAN\Git\new\WEB_API\Electronic.API\Electronic.BussinessLogic\bin\Debug\Electronic.BussinessLogic.exe
+D:\kantor\VS\TRY\WEB API\LATIHAN\Git\new\WEB_API\Electronic.API\Electronic.BussinessLogic\bin\Debug\Electronic.BussinessLogic.pdb
+D:\kantor\VS\TRY\WEB API\LATIHAN\Git\new\WEB_API\Electronic.API\Electronic.BussinessLogic\bin\Debug\Electronic.Common.exe
+D:\kantor\VS\TRY\WEB API\LATIHAN\Git\new\WEB_API\Electronic.API\Electronic.BussinessLogic\bin\Debug\Electronic.DataAccess.exe
+D:\kantor\VS\TRY\WEB API\LATIHAN\Git\new\WEB_API\Electronic.API\Electronic.BussinessLogic\bin\Debug\EntityFramework.dll
+D:\kantor\VS\TRY\WEB API\LATIHAN\Git\new\WEB_API\Electronic.API\Electronic.BussinessLogic\bin\Debug\EntityFramework.SqlServer.dll
+D:\kantor\VS\TRY\WEB API\LATIHAN\Git\new\WEB_API\Electronic.API\Electronic.BussinessLogic\bin\Debug\Electronic.Common.pdb
+D:\kantor\VS\TRY\WEB API\LATIHAN\Git\new\WEB_API\Electronic.API\Electronic.BussinessLogic\bin\Debug\Electronic.DataAccess.pdb
+D:\kantor\VS\TRY\WEB API\LATIHAN\Git\new\WEB_API\Electronic.API\Electronic.BussinessLogic\bin\Debug\EntityFramework.xml
+D:\kantor\VS\TRY\WEB API\LATIHAN\Git\new\WEB_API\Electronic.API\Electronic.BussinessLogic\bin\Debug\EntityFramework.SqlServer.xml
+D:\kantor\VS\TRY\WEB API\LATIHAN\Git\new\WEB_API\Electronic.API\Electronic.BussinessLogic\obj\Debug\Electronic.BussinessLogic.csprojResolveAssemblyReference.cache
+D:\kantor\VS\TRY\WEB API\LATIHAN\Git\new\WEB_API\Electronic.API\Electronic.BussinessLogic\obj\Debug\Electronic.BussinessLogic.exe
+D:\kantor\VS\TRY\WEB API\LATIHAN\Git\new\WEB_API\Electronic.API\Electronic.BussinessLogic\obj\Debug\Electronic.BussinessLogic.pdb

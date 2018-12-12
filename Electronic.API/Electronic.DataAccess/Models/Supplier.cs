@@ -38,7 +38,7 @@ namespace Electronic.DataAccess.Models
             this.IsDelete = true;
             this.DeleteDate = DateTimeOffset.Now.LocalDateTime;
         }
-    
+
         public int Id { get; set; }
         public string Name { get; set; }
         public Nullable<System.DateTime> CreateDate { get; set; }

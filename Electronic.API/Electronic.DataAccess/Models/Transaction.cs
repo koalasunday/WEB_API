@@ -26,8 +26,10 @@ namespace Electronic.DataAccess.Models
             this.Id = transactionParam.Transactions_Id;
             this.TransactionCode = transactionParam.TransactionCode;
             this.TransactionDate = DateTimeOffset.Now.LocalDateTime;
+            //this.TransactionDate = transactionParam.TransactionDate;
         }
-    
+
+
         public int Id { get; set; }
         public string TransactionCode { get; set; }
         public Nullable<System.DateTimeOffset> TransactionDate { get; set; }

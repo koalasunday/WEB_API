@@ -5,12 +5,13 @@
 function LoadIndexTransaction() {
     $.ajax({
         type: "GET",
-        url: "http://localhost:1082/api/Transactions",
+        url: "http://localhost:2188/api/Transactions",
         dateType: "json",
         success: function (data) {
             var html = '';
             $.each(data, function (index, val) {
                 html += '<tr>';
+                html += '<td>' + val.Id + '</td>';
                 html += '<td>' + val.TransactionCode + '</td>';
                 html += '<td>' + val.TransactionDate + '</td>';
                 html += '<td> <a href="#" onclick="return GetById(' + val.Id + ')">Detail</a>';

@@ -46,3 +46,15 @@ C:\WEB_API\Electronic.API\Electronic.Common\bin\Debug\EntityFramework.SqlServer.
 C:\WEB_API\Electronic.API\Electronic.Common\obj\Debug\Electronic.Common.csprojResolveAssemblyReference.cache
 C:\WEB_API\Electronic.API\Electronic.Common\obj\Debug\Electronic.Common.exe
 C:\WEB_API\Electronic.API\Electronic.Common\obj\Debug\Electronic.Common.pdb
+D:\kantor\VS\TRY\WEB API\LATIHAN\Git\new\WEB_API\Electronic.API\Electronic.Common\bin\Debug\Electronic.Common.exe.config
+D:\kantor\VS\TRY\WEB API\LATIHAN\Git\new\WEB_API\Electronic.API\Electronic.Common\bin\Debug\Electronic.Common.exe
+D:\kantor\VS\TRY\WEB API\LATIHAN\Git\new\WEB_API\Electronic.API\Electronic.Common\bin\Debug\Electronic.Common.pdb
+D:\kantor\VS\TRY\WEB API\LATIHAN\Git\new\WEB_API\Electronic.API\Electronic.Common\bin\Debug\Electronic.DataAccess.exe
+D:\kantor\VS\TRY\WEB API\LATIHAN\Git\new\WEB_API\Electronic.API\Electronic.Common\bin\Debug\EntityFramework.dll
+D:\kantor\VS\TRY\WEB API\LATIHAN\Git\new\WEB_API\Electronic.API\Electronic.Common\bin\Debug\EntityFramework.SqlServer.dll
+D:\kantor\VS\TRY\WEB API\LATIHAN\Git\new\WEB_API\Electronic.API\Electronic.Common\bin\Debug\Electronic.DataAccess.pdb
+D:\kantor\VS\TRY\WEB API\LATIHAN\Git\new\WEB_API\Electronic.API\Electronic.Common\bin\Debug\EntityFramework.xml
+D:\kantor\VS\TRY\WEB API\LATIHAN\Git\new\WEB_API\Electronic.API\Electronic.Common\bin\Debug\EntityFramework.SqlServer.xml
+D:\kantor\VS\TRY\WEB API\LATIHAN\Git\new\WEB_API\Electronic.API\Electronic.Common\obj\Debug\Electronic.Common.csprojResolveAssemblyReference.cache
+D:\kantor\VS\TRY\WEB API\LATIHAN\Git\new\WEB_API\Electronic.API\Electronic.Common\obj\Debug\Electronic.Common.exe
+D:\kantor\VS\TRY\WEB API\LATIHAN\Git\new\WEB_API\Electronic.API\Electronic.Common\obj\Debug\Electronic.Common.pdb

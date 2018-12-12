@@ -42,7 +42,7 @@ namespace Electronic.DataAccess.Models
             this.IsDelete = true;
             this.Deletedate = DateTimeOffset.Now.LocalDateTime;
         }
-    
+
         public int Id { get; set; }
         public string Name { get; set; }
         public Nullable<int> Price { get; set; }

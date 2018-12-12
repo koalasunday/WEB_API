@@ -378,6 +378,7 @@
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\SupplierMaster\Detail.js" />
     <Content Include="Scripts\SupplierMaster\RetrieDetail.js" />
     <Content Include="Scripts\SupplierMaster\RetrieItem.js" />
     <Content Include="Scripts\SupplierMaster\RetrieSupplier.js" />

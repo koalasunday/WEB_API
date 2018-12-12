@@ -1,194 +1,134 @@
 ﻿<div class="container">
-    <hr />
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" onclick="Reset();">Create New</button><br /><br />
+    <br />
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#newOrderModal" onclick="addNewOrder()">Create New</button><br /><br />
     <table class="table table-hover">
         <thead>
             <tr>
-                <th>
-                    Transaction Code
-                </th>
-                <th>
-                    Item Name
-                </th>
-                <th>
-                    Quantity
-                </th>
-                <th>
-                    Price
-                </th>
-                <th>
-                    Subtotal
-                </th>
-                <th>
-                    Action
-                </th>
+                <th>Transaction Id</th>
+                <th>Transaction Code</th>
+                <th>Date</th>
+                <th>Action</th>
             </tr>
         </thead>
-        <tbody class="tbody1"></tbody>
+        <tbody class="tbody"></tbody>
     </table>
 </div>
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog" style="width: 1000px !important;">
+<div class="modal fade" id="newOrderModal">
+    <div class="modal-dialog modal-lg" style="width: 900px !important;">
         <div class="modal-content">
             <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal">×</button>
-                <h4 class="modal-title" id="myModalLabel">Item Form</h4>
+                <a href="#" class="close" data-dismiss="modal">&times;</a>
+                <h4>Transaction Form</h4>
             </div>
-            <div class="modal-body">
-                <form>
-                    <h5>Transaction</h5>
-                    <div class="form-group row">
-                        <div class="hidden">
-                            <label for="Id">Id</label>
-                            <input type="text" id="Id" placeholder="Id" disabled="disabled" />
-                        </div>
-                        <div class="col-md-6">
-                            <label for="TransactionCode">Transaction Code</label>
-                            <input type="text" class="form-control" id="TransactionCode" placeholder="TransactionCode" />
-                        </div>
-
-                        <div class="hidden">
-                            <label for="Id">Id</label>
-                            <input type="text" id="Id" placeholder="Id" disabled="disabled" />
-                        </div>
-                        <div class="col-md-4">
-                            <div class="col-md-1 text-right">
-                                <label for="Item">Item</label>
+            <form id="NewOrderForm">
+                <div class="modal-body">
+                    <div class="master">
+                        <h5 style="color:#ff6347">Transaction</h5>
+                        <hr />
+                        <div class="form-horizontal">
+                            @*<input type="hidden" id="Id" />*@
+                            <div class="form-group">
+                                <label class="control-label col-md-1">Code</label>
+                                <div class="col-md-3">
+                                    <input type="text" id="TransactionCode" name="TransactionCode" placeholder="Transaction Code" class="form-control" />
+                                </div>
+                                <label class="control-label col-md-1">Date</label>
+                                <div class="col-md-3">
+                                    <input type="text" id="Date" name="address" placeholder="Customer Address" class="form-control" />
+                                </div>
                             </div>
-                            <select id="ProductItem" class="pc form-control" onchange="loadItem(this)">
-                                <option>Select</option>
-                            </select>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="col-md-1 text-right">
-                                <label for="Price">Price</label>
-                            </div>
-                            <input type="text" class="form-control" id="Price" placeholder="0" />
-                        </div>
-                        <div class="col-md-1">
-                            <div class="col-md-1 text-right">
-                                <label for="Quantity">Qt</label>
-                            </div>
-                            <input type="text" class="form-control" id="Quantity" placeholder="0" />
-                        </div>
-                        <div class="col-md-2">
-                            <label class="control-label text-left">&nbsp;</label>
-                            @*<input type="button" id="add" value="addList" style="width:80px" class="btn btn-success" />*@
-                            <a href="" class="btn btn-block btn-success" id="AddList" style="width:80px">Add list</a>
                         </div>
                     </div>
 
-                    <table id="detailsTable" class="table">
-                        <thead>
-                            <tr>
-                                <th style="width:30%">Product</th>
-                                <th style="width:20%">Unit Price</th>
-                                <th style="width:15%">Quantity</th>
-                                <th style="width:25%">Amount</th>
-                                <th style="width:10%">Action</th>
-                            </tr>
-                        </thead>
-                        <tbody></tbody>
-                    </table>
+                    <br />
 
+                    <div class="detail">
+                        <h5 style="margin-top:10px;color:#ff6347">Transaction Details</h5>
+                        <hr />
+                        <div class="mycontainer" id="mainRow">
+                            <div class="form-horizontal">
+                                @*<input type="hidden" id="Id" />*@
+                                <div class="form-group">
+                                    <div class="col-md-4">
+                                        <label for="ProductItem" class="col-md-1 text-right">Item</label>
+                                        <select id="ProductItem" class="pc form-control" onchange="loadItem(this)">
+                                            <option>Select</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <label for="Price" class="col-md-1 text-right">Price</label>
+                                        <input type="text" class="form-control" id="Price" placeholder="0" disabled="disabled" value="0" />
+                                    </div>
+                                    <div class="col-md-1">
+                                        <label for="Quantity" class="col-md-1 text-right">Qt</label>
+                                        <input type="text" class="form-control text-center" id="Quantity" placeholder="0" value="0" />
+                                    </div>
+                                    <div class="col-md-2">
+                                        <label for="Subtotal" class="col-md-1 text-right">Subtotal</label>
+                                        <input type="text" class="form-control" id="Subtotal" placeholder="0" disabled="disabled" value="0" />
+                                    </div>
+                                    <div class="col-md-2">
+                                        <label class="control-label text-left">&nbsp;</label><br />
+                                        @*<a href="#" class="btn btn-block btn-success" id="AddList" style="width:80px">Add list</a>*@
+                                        <input type="button" id="AddList" value="AddList" style="width:80px" class="btn btn-success" />
+                                    </div>
+                                </div>
+                                <br />
+                            </div>
 
-                </form>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-primary" id="Save" onclick="Save();">Add</button>
-                <button type="button" class="btn btn-primary" id="Update" style="display:none;" onclick="Edit();">Update</button>
-                <button type="button" class="btn btn-default deleteItem" data-dismiss="modal" onclick="ResetItem();">Close</button>
-            </div>
+                        </div>
+                        <div id="orderItem">
+                            <table class="table" id="detailsTable"></table>
+                            <span id="orderItemError" style="color:red"></span>
+                        </div>
+
+                        <!--
+                        <div id="orderItem">
+                            <table class="table" id="detailsTable">
+                                @*<thead>
+                                    <tr>
+                                        <th style="width:30%">Product</th>
+                                        <th style="width:20%">Unit Price</th>
+                                        <th style="width:15%">Quantity</th>
+                                        <th style="width:25%">Sub Total</th>
+                                        <th style="width:10%"></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>*@
+                            </table>
+                            <span id="orderItemError" style="color:red"></span>
+                        </div>
+
+                        @*<table id="detailsTable" class="table">
+                            @*<thead>
+                                <tr>
+                                    <th style="width:30%">Product</th>
+                                    <th style="width:20%">Unit Price</th>
+                                    <th style="width:15%">Quantity</th>
+                                    <th style="width:25%">Sub Total</th>
+                                    <th style="width:10%"></th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>*@
+                        -->
+                    </div>
+                    
+                </div>
+                <div class="modal-footer">
+                    <button type="reset" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button id="saveOrder" type="submit" class="btn btn-danger" onclick="return savedetails()">Save Order</button>
+                </div>
+            </form>
         </div>
     </div>
 </div>
+
 
 @section Scripts {
     <script src="~/Content/sweetalert/sweetalert.min.js"></script>
     <link href="~/Content/sweetalert/sweetalert.css" rel="stylesheet" />
-    <script src="~/Scripts/SupplierMaster/RetrieDetail.js"></script>
+    <script src="~/Scripts/SupplierMaster/Detail.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
     @Scripts.Render("~/bundles/jqueryval")
 }
-
-@*modal awal*@
-<!--
-    
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog" style="width: 1000px !important;">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal">×</button>
-                <h4 class="modal-title" id="myModalLabel">Item Form</h4>
-            </div>
-            <div class="modal-body">
-                <form>
-                    <h4>Transaction</h4>
-                    <div class="form-group row">
-                        <div class="hidden">
-                            <label for="Id">Id</label>
-                            <input type="text" id="Id" placeholder="Id" disabled="disabled" />
-                        </div>
-                        <div class="col-md-6">
-                            <label for="TransactionCode">Transaction Code</label>
-                            <input type="text" class="form-control" id="TransactionCode" placeholder="TransactionCode" />
-                        </div>
-
-                        <div class="hidden">
-                            <label for="Id">Id</label>
-                            <input type="text" id="Id" placeholder="Id" disabled="disabled" />
-                        </div>
-                        <div class="col-md-4">
-                            <div class="col-md-1 text-right">
-                                <label for="Item">Item</label>
-                            </div>
-                            <select id="ProductItem" class="pc form-control" onchange="loadItem(this)">
-                                <option>Select</option>
-                            </select>
-                        </div>
-
-                        <div class="col-md-4">
-                            <div class="col-md-1 text-right">
-                                <label for="Price">Price</label>
-                            </div>
-                            <input type="text" class="form-control" id="Price" placeholder="0" />
-                        </div>
-                        <div class="col-md-1">
-                            <div class="col-md-1 text-right">
-                                <label for="Quantity">Qt</label>
-                            </div>
-                            <input type="text" class="form-control" id="Quantity" placeholder="0" />
-                        </div>
-                        <div class="col-md-2">
-                            <label class="control-label text-left">&nbsp;</label>
-                            <input type="button" id="add" value="addList" style="width:80px" class="btn btn-success" />
-                            <a href="" class="btn btn-block btn-success" id="AddList" style="width:80px">Add list</a>
-                        </div>
-                    </div>
-
-                    <table id="detailsTable" class="table">
-                        <thead>
-                            <tr>
-                                <th style="width:30%">Product</th>
-                                <th style="width:20%">Unit Price</th>
-                                <th style="width:15%">Quantity</th>
-                                <th style="width:25%">Amount</th>
-                                <th style="width:10%">Action</th>
-                            </tr>
-                        </thead>
-                        <tbody></tbody>
-                    </table>
-
-
-                </form>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-primary" id="Save" onclick="Save();">Add</button>
-                <button type="button" class="btn btn-primary" id="Update" style="display:none;" onclick="Edit();">Update</button>
-                <button type="button" class="btn btn-default deleteItem" data-dismiss="modal" onclick="ResetItem();">Close</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-
--->

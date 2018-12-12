@@ -11,6 +11,7 @@ namespace Electronic.DataAccess.Params
     {
         public int Transactions_Id { get; set; }
         public string TransactionCode { get; set; }
+        //public System.DateTimeOffset TransactionDate { get; set; }
 
         public int DetailTransactions_Id { get; set; }
         public Nullable<int> DetailTransactions_Quantity { get; set; }
