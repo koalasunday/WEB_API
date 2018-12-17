@@ -20,15 +20,12 @@ namespace Electronic.DataAccess.Models
         {
             this.DetailTransactions = new HashSet<DetailTransaction>();
         }
-
         public Transaction(TransactionParam transactionParam)
         {
             this.Id = transactionParam.Transactions_Id;
             this.TransactionCode = transactionParam.TransactionCode;
             this.TransactionDate = DateTimeOffset.Now.LocalDateTime;
-            //this.TransactionDate = transactionParam.TransactionDate;
         }
-
 
         public int Id { get; set; }
         public string TransactionCode { get; set; }

@@ -20,7 +20,6 @@ namespace Electronic.DataAccess.Models
         {
             this.Items = new HashSet<Item>();
         }
-
         public Supplier(SuppliersParam suppliersParam)
         {
             this.Name = suppliersParam.Name;

@@ -20,7 +20,6 @@ namespace Electronic.DataAccess.Models
         {
             this.DetailTransactions = new HashSet<DetailTransaction>();
         }
-
         public Item(ItemParam itemParam)
         {
             this.Id = itemParam.Id;
